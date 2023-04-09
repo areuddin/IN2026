@@ -52,6 +52,11 @@ private:
 	shared_ptr<GUILabel> mScoreLabel;
 	shared_ptr<GUILabel> mLivesLabel;
 	shared_ptr<GUILabel> mGameOverLabel;
+	//title stuff
+	shared_ptr<GUILabel> mTitleLabel;
+	shared_ptr<GUILabel> mStartLabel;
+	//high score stuff
+	shared_ptr<GUILabel> mHScoreLabel;
 
 	uint mLevel;
 	uint mAsteroidCount;
